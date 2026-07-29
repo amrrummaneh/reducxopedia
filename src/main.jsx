@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { store } from "./store/store";
+import { store } from "./redusx/store";
 import { Provider } from "react-redux";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
